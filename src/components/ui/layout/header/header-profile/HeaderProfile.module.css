@@ -1,0 +1,19 @@
+.profile {
+	@apply rounded-full border-primary border border-solid;
+}
+
+.position {
+	@apply absolute top-[8rem] w-52 right-[0.7rem] bg-secondary rounded-lg px-7 py-5 text-base z-20 text-white cursor-pointer;
+}
+
+.open_menu {
+	opacity: 1;
+	transform: scale(1);
+}
+.close_menu {
+	opacity: 0;
+	transform: scale(0.8);
+}
+.mx {
+	@apply mx-10;
+}

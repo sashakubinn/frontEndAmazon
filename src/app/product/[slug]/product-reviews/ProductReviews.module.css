@@ -1,0 +1,12 @@
+.wrapper {
+	@apply mt-20;
+}
+.head {
+	@apply mb-9;
+}
+.button {
+	@apply text-aqua;
+}
+.position {
+	@apply grid grid-cols-4 gap-10;
+}

@@ -1,0 +1,22 @@
+.container {
+	@apply bg-secondary flex flex-col justify-between z-10;
+}
+.top {
+	@apply mt-6;
+}
+.category {
+	@apply block text-lg my-4 px-10 hover:text-primary transition-colors duration-200;
+}
+.primary {
+	@apply text-primary;
+}
+.whit {
+	@apply text-white;
+}
+
+.logout {
+	@apply text-white flex items-center ml-10 mb-10;
+}
+.ml {
+	@apply ml-2;
+}

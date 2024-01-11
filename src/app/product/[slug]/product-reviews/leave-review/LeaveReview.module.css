@@ -1,0 +1,9 @@
+.textarea {
+	@apply rounded-md border border-gray/70 bg-white p-3 block mt-4 resize-none w-full text-sm min-h-[110px];
+}
+.error {
+	@apply text-red text-sm list-disc pl-4 mt-3;
+}
+.button {
+	@apply text-center mb-2 mt-8;
+}

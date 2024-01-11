@@ -1,0 +1,15 @@
+.default {
+	@apply rounded-2xl shadow font-[550] mx-4 px-12 py-3 mt-4;
+}
+
+.small {
+	@apply rounded-2xl shadow font-[550] px-6 text-lg py-3 mt-4 m-4;
+}
+
+.button_orange {
+	@apply text-white bg-primary;
+}
+
+.button_white {
+	@apply text-primary bg-white text-lg;
+}

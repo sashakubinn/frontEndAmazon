@@ -1,0 +1,12 @@
+.checkbox {
+	@apply flex items-center p-1;
+	> span:first-child {
+		@apply h-5 w-5 rounded border border-solid border-gray bg-transparent transition-colors duration-300 ease-in-out;
+		&.active {
+			@apply border-primary bg-primary;
+		}
+	}
+	> span:last-child {
+		@apply ml-4;
+	}
+}

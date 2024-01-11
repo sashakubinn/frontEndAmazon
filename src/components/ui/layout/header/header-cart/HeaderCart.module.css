@@ -1,0 +1,32 @@
+.container {
+	@apply relative mx-10;
+}
+
+.position {
+	@apply absolute top-[4.4rem] w-80 -left-[8.5rem] bg-secondary rounded-lg px-5 py-3 text-sm z-20 text-white;
+}
+
+.open_menu {
+	opacity: 1;
+	transform: scale(1);
+}
+.close_menu {
+	opacity: 0;
+	transform: scale(0.8);
+}
+.center {
+	@apply text-center;
+}
+.button {
+	@apply mt-5 mb-2;
+}
+.empty {
+	@apply text-xl;
+}
+.total {
+	@apply mt-4 text-[1.2rem];
+}
+
+.checkout {
+	@apply text-center mt-7 mb-5;
+}

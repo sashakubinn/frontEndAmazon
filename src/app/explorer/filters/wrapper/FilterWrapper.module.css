@@ -1,0 +1,6 @@
+.wrapper {
+	@apply mb-5 p-1;
+}
+.title {
+	@apply mb-3 font-semibold text-[1.35rem];
+}

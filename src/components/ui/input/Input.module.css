@@ -1,0 +1,23 @@
+.error {
+	@apply text-sm text-red mt-1;
+}
+
+.icon {
+	@apply mr-3;
+}
+
+.input {
+	@apply px-4 py-2 w-full rounded-xl outline-none border border-gray border-solid focus:border-primary placeholder:font-normal;
+}
+
+.bor_error {
+	@apply border-red;
+}
+
+.container {
+	@apply mb-4;
+}
+
+.placeholder {
+	@apply mb-1 block;
+}

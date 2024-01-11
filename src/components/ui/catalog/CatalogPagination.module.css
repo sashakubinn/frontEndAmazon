@@ -1,0 +1,6 @@
+.container {
+	@apply grid grid-cols-4 gap-11;
+}
+.btn_center {
+	@apply text-center mt-12;
+}

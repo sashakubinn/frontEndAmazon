@@ -1,0 +1,15 @@
+.container {
+	@apply mt-3;
+}
+
+.position {
+	@apply flex items-center gap-3;
+}
+
+.input {
+	@apply w-10 bg-black text-center;
+}
+
+.trash_button {
+	@apply ml-3 text-secondary;
+}

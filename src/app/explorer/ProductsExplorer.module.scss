@@ -1,0 +1,25 @@
+.explorer {
+	@apply flex;
+}
+.explorer > aside {
+	@apply w-0 whitespace-nowrap opacity-0;
+	transition: width 600ms ease-in, opacity 600ms ease-in;
+}
+.explorer > section {
+	@apply w-full;
+	transition: width 600ms ease-in;
+}
+
+.explorer .filterOpened {
+	@apply gap-5;
+}
+.filterOpened > aside {
+	@apply w-2/6 opacity-100;
+}
+
+.container {
+	@apply flex items-center justify-between mb-7;
+}
+.but {
+	@apply mb-7;
+}

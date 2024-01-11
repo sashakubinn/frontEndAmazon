@@ -1,0 +1,6 @@
+.section {
+	@apply flex h-screen;
+}
+.form {
+	@apply rounded-lg bg-white shadow-sm p-8 m-auto;
+}

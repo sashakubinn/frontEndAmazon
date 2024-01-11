@@ -1,0 +1,25 @@
+.select {
+	@apply relative w-max;
+}
+.ul {
+	@apply absolute mt-4 right-0 z-20 w-max bg-white;
+}
+.selectOptions {
+	@apply mb-3 block w-full rounded-lg bg-white px-7 py-2 text-center shadow-md transition-colors duration-200 ease-linear;
+}
+.selectOptions:hover {
+	@apply bg-primary text-white;
+}
+
+.position {
+	@apply flex;
+}
+.title {
+	@apply mr-2 text-xl font-medium;
+}
+.label {
+	@apply mt-[0.1rem];
+}
+.top {
+	@apply ml-1 mt-1;
+}

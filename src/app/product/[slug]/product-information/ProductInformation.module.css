@@ -1,0 +1,27 @@
+.wrapper {
+	@apply bg-white rounded-lg shadow-md p-6 relative h-max;
+}
+.price {
+	@apply text-3xl font-semibold;
+}
+.mt {
+	@apply mt-2;
+}
+.details {
+	@apply text-aqua font-semibold ml-2;
+}
+.sales {
+	@apply opacity-50 mt-1 text-sm block;
+}
+.delivery {
+	@apply mt-4 text-sm;
+}
+.delivery_text {
+	@apply opacity-50 mr-1;
+}
+.transaction {
+	@apply flex items-center mt-2 opacity-40 text-sm;
+}
+.fav_button {
+	@apply absolute top-6 right-6;
+}

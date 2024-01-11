@@ -1,0 +1,13 @@
+.wrapper {
+	@apply bg-white rounded-lg shadow-md p-6;
+}
+
+.posiotion {
+	@apply flex items-center mb-2;
+}
+.image {
+	@apply mr-3 block rounded-full;
+}
+.text {
+	@apply text-sm mt-4 leading-relaxed;
+}

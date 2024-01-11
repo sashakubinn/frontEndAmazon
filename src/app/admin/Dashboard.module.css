@@ -1,0 +1,6 @@
+.wrapper {
+	@apply grid grid-cols-4 gap-10;
+}
+.item {
+	@apply rounded-lg bg-white p-6 shadow;
+}

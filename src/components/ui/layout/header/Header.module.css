@@ -1,0 +1,23 @@
+.container {
+	@apply bg-secondary w-full py-6 px-6 grid;
+}
+.logo {
+	@apply m-5;
+}
+.admin {
+	@apply inline-block mr-10;
+}
+.color {
+	@apply bg-primary;
+}
+
+.right_side {
+	@apply flex items-center justify-center;
+}
+
+.mx {
+	@apply mx-10;
+}
+.col_white {
+	@apply text-white;
+}

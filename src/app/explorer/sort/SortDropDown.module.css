@@ -1,0 +1,6 @@
+.container {
+	@apply text-secondary mb-6 text-right;
+}
+.wrapper {
+	@apply text-right z-10;
+}

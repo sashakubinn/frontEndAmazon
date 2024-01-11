@@ -1,0 +1,9 @@
+.sidebar {
+	@apply grid;
+}
+.bg {
+	@apply bg-secondary;
+}
+.child {
+	@apply p-10 bg-bg-color rounded-tl-xl;
+}

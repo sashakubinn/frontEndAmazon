@@ -1,0 +1,6 @@
+.ml {
+	@apply text-base ml-4;
+}
+.xs {
+	@apply text-xs;
+}

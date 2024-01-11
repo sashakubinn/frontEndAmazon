@@ -1,0 +1,10 @@
+.item {
+	@apply flex items-center gap-4 border-b border-b-[#F7F4F0] pb-6 pt-4;
+}
+
+.price {
+	@apply text-[1.085rem];
+}
+.top {
+	@apply mt-2;
+}

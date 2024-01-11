@@ -1,0 +1,36 @@
+.reviews {
+	@apply opacity-50 font-semibold text-sm cursor-pointer;
+}
+.inline {
+	@apply inline-block;
+}
+.gallery {
+	@apply rounded-lg overflow-hidden;
+}
+.gallery_image {
+	@apply duration-300 hover:shadow-md mr-5 last:mr-0 border-b-2 border-solid transition-all rounded-lg overflow-hidden inline-block;
+}
+.active {
+	@apply shadow-md border-primary;
+}
+.non_active {
+	@apply border-transparent;
+}
+.mt {
+	@apply mt-6;
+}
+.position {
+	@apply grid gap-12 mt-6;
+}
+.description {
+	@apply opacity-80 font-light;
+}
+.description_text {
+	@apply font-semibold mb-1;
+}
+.similar {
+	@apply mt-20;
+}
+.similar_position {
+	@apply grid grid-cols-4 gap-10;
+}
